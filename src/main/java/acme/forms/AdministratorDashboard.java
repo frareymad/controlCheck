@@ -8,6 +8,8 @@ import org.apache.commons.lang3.tuple.Pair;
 import lombok.Getter;
 import lombok.Setter;
 
+
+//EJERCICIO 2
 @Getter
 @Setter
 public class AdministratorDashboard implements Serializable{
@@ -40,6 +42,18 @@ public class AdministratorDashboard implements Serializable{
 		Map<String, Double>                    deviationBudgetOfPatronagesByStatus;
 		Map<String, Double>                    minimumBudgetOfPatronagesByStatus;
 		Map<String, Double>                    maximumBudgetOfPatronagesByStatus;
+		
+		
+		
+		double 									ratioOfComponentsWhitChimpum;//numero de chimpums de un component entre numero de components 
+		Map<String, Double>                             averageBudgetOfChimpumsByCurrency;
+		Map<String, Double>                             deviationBudgetOfChimpumsByCurrency;
+		Map<String, Double>                             minimumBudgetOfChimpumsByCurrency;
+		Map<String, Double>                             maximumBudgetOfChimpumsByCurrency;
+		
+		
+		
+		
 		// Map<Status, Amount>
 		
 		

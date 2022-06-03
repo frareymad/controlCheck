@@ -76,6 +76,11 @@
             <acme:submit code="inventor.item.form.button.update" action="/inventor/item/update-tool"/>
             <acme:submit code="inventor.item.form.button.delete" action="delete-tool"/>
             <acme:submit code="inventor.item.form.button.publish" action="publish"/>
+            <acme:button code="inventor.chimpum.form.button.create" action="/inventor/chimpum/create?itemId=${itemId}"/>
+            <acme:button code="inventor.item.form.button.listChimpum" action="/inventor/chimpum/list?itemId=${itemId}"/>
+    </jstl:when>
+    <jstl:when test="${acme:anyOf(command,'show, update-tool, delete, publish') && itemType == 'TOOL'}"> 
+    	<acme:button code="inventor.item.form.button.listChimpum" action="/inventor/chimpum/list?itemId=${itemId}"/>
     </jstl:when>
 	</jstl:choose>
 	

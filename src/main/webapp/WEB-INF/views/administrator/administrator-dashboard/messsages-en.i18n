@@ -28,4 +28,8 @@ administrator.admin-dashboard.form.label.devPatronages = Deviation budget of pat
 administrator.admin-dashboard.form.label.minPatronages = Minimum budget of patronages by status
 administrator.admin-dashboard.form.label.maxPatronages = Maximum budget of patronages by status
 
-
+administrator.administrator-dashboard.form.label.ratio = Ratio Of Chimpum In Tools
+administrator.admin-dashboard.form.label.avgChimpum = Average budget of Chimpum
+administrator.admin-dashboard.form.label.devChimpum = Deviation budget of Chimpum
+administrator.admin-dashboard.form.label.minChimpum = Minimum budget of Chimpum
+administrator.admin-dashboard.form.label.maxChimpum = Maximum budget of Chimpum
