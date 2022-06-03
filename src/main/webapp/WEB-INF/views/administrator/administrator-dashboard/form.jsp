@@ -77,5 +77,30 @@
 		code="administrator.admin-dashboard.form.label.maxPatronages"
 		path="maxP" />
 		
+		
+		
+		<acme:input-integer
+		code="administrator.administrator-dashboard.form.label.ratio"
+		path="ratioOfComponentsWhitChimpum" />
+	<acme:input-textarea
+		code="administrator.admin-dashboard.form.label.avgChimpum"
+		path="avCh" />
+	<acme:input-textarea
+		code="administrator.admin-dashboard.form.label.devChimpum"
+		path="devCh" />
+	<acme:input-textarea
+		code="administrator.admin-dashboard.form.label.minChimpum"
+		path="minCh" />
+	<acme:input-textarea
+		code="administrator.admin-dashboard.form.label.maxChimpum"
+		path="maxCh" />
+		
+		
+		
+		
+		
+		
+		
+		
 
 </acme:form>

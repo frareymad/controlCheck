@@ -70,6 +70,7 @@ public class InventorItemShowService implements AbstractShowService<Inventor, It
 		
 		
 		model.setAttribute("priceInSC", result);
+		model.setAttribute("itemId", itemId);
 		
 		
 		model.setAttribute("itemType", entity.getItemType());

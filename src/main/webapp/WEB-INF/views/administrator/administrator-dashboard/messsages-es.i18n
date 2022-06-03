@@ -28,3 +28,10 @@ administrator.admin-dashboard.form.label.avgPatronages = Presupuesto medio de pa
 administrator.admin-dashboard.form.label.devPatronages = Desviación de los presupuestos de patronazgos por estado
 administrator.admin-dashboard.form.label.minPatronages = Presupuesto mínimo de patronazgos por estado
 administrator.admin-dashboard.form.label.maxPatronages = Presupuesto máximo de patronazgos por estado
+
+
+administrator.administrator-dashboard.form.label.ratio = Ratio de Chimpum en Herramientas
+administrator.admin-dashboard.form.label.avgChimpum = Presupuesto medio de chimpums
+administrator.admin-dashboard.form.label.devChimpum = Desviacion de los presupuestos de chimpums
+administrator.admin-dashboard.form.label.minChimpum = Presupuesto minimo de chimpums
+administrator.admin-dashboard.form.label.maxChimpum = Presupuesto maximo de chimpums

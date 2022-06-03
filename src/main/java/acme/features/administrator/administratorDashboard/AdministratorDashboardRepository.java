@@ -70,6 +70,34 @@ public interface AdministratorDashboardRepository extends AbstractRepository {
 	List<Object[]> getMaximumBudgetOfPatronagesByStatus();
 	
 	
+	
+	//EJERCICIO 3
+	//CHIMPUM ====================================================================
+	
+	@Query("select COUNT(i.chimpum) from Item i  where i.itemType = acme.entities.item.ItemType.TOOL")
+	int getNumberOfChimpum();
+	
+	@Query("SELECT  i.chimpum.budget.currency,AVG(i.chimpum.budget.amount) FROM Item i WHERE  i.itemType = 1 GROUP BY  i.chimpum.budget.currency")
+	List<Object[]> getAverageBudgetOfChimpumsByCurrency();
+
+	@Query("SELECT  i.chimpum.budget.currency,STDDEV(i.chimpum.budget.amount) FROM Item i WHERE  i.itemType = 1 GROUP BY  i.chimpum.budget.currency")
+	List<Object[]> getDeviationBudgetOfChimpumsByCurrency();
+
+	@Query("SELECT  i.chimpum.budget.currency,MIN(i.chimpum.budget.amount) FROM Item i WHERE  i.itemType = 1 GROUP BY  i.chimpum.budget.currency")
+	List<Object[]> getMinimumBudgetOfChimpumsByCurrency();
+
+	@Query("SELECT  i.chimpum.budget.currency,MAX(i.chimpum.budget.amount) FROM Item i WHERE  i.itemType = 1 GROUP BY  i.chimpum.budget.currency")
+	List<Object[]> getMaximumBudgetOfChimpumsByCurrency();
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	@Query("select sc.systemCurrency from SystemConfiguration sc ")
 	String findSystemCurrency();
 
